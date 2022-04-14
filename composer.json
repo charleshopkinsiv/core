@@ -1,0 +1,23 @@
+{
+    "name": "charleshopkinsiv/core",
+    "description": "A useful package for many different types of applications.",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/charleshopkinsiv/core"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Charles Hopkins",
+            "email": "charleshopkinsiv@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CharlesHopkinsIV\\Core\\": "src",
+            "CharlesHopkinsIV\\Core\\Commands\\": "/commands"
+        }
+    }
+}
